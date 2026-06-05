@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/hamid/IdeaProjects/E-commerce99">
+        <classes>
+            <class name="com.aswesomeQA.Test1">
+                <methods>
+                    <include name="testAddition"/>
+                    <include name="testSubtraction"/>
+                    <include name="testMultiplication"/>
+                    <include name="testDivision"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
